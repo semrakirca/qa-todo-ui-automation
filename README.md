@@ -21,6 +21,8 @@ The tests focus on the **Add Todo** feature:
 - Preventing whitespace-only todos
 - Verifying that todos persist after a page refresh
 
+This project also includes test cases for Turkish characters and edge cases like whitespace-only input, focusing on real-world scenarios and robustness.
+
 ## Project Structure
 
 ```text
@@ -36,4 +38,5 @@ qa-todo-ui-automation/
 ├── requirements.txt        # Dependencies
 └── README.md               # Project description
 ```
+
 # qa-todo-ui-automation

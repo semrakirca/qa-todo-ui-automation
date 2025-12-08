@@ -185,12 +185,10 @@ def test_todos_persist_after_refresh_tc_add_009(driver):
     # Beklenen sonuç: todo hâlâ listede
     todos_after = page.get_todo_texts()
     assert "Kitap oku" in todos_after
-def test_add_todo_with_turkish_characters_tc_add_005(driver):
+def test_add_todo_with_turkish_characters_tc_add_007(driver):
     page = TodoPage(driver)
     page.open()
 
-    page.add_todo("Çalışma planı hazırlayacağım.")
+    page.add_todo("Çalışma planı hazırlayacağım")
     todos = page.get_todo_texts()
     assert "Çalışma planı hazırlayacağım." in todos
-
-    driver.refresh()
