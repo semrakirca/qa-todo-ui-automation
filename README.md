@@ -40,3 +40,13 @@ qa-todo-ui-automation/
 ```
 
 # qa-todo-ui-automation
+
+## API Tests (Requests + Pytest)
+
+This repository also includes basic API automation tests using `requests` and `pytest`.
+
+Run:
+
+```bash
+python3 -m pytest -v api_tests/test_reqres_users.py
+```
